@@ -1,12 +1,12 @@
-package JavaUdemy;
+
 // TASK 1: Make a class.
 public class PrintOut {
     public static void main(String[] args) {
-        System.out.println("Printing is fun!");
+        System.out.println(12);
         System.out.println("Java > Pythin");
         System.out.println("I spilled Java all over my paper");
         System.out.println("My dog ate my Java");
-    }
+    }  
 }
 
 
