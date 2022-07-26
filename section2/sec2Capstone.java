@@ -36,7 +36,7 @@ public class sec2Capstone{
 
         System.out.println("\n" + newLanguage + ", that's great! Nice chatting with you " + name + ". I have to log off now. See ya!");
         
-        //close scanner. 
+        scan.close();
 
         
     }
