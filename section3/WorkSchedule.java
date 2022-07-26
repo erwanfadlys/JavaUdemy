@@ -4,6 +4,14 @@ public class WorkSchedule {
         boolean holiday = true;
          
         // if it's a holiday, print: "woohoo, no work!");
+        if (day >= 5) {
+            holiday = false;
+            System.out.println("Wake up at 7:00 :( "); 
+            System.out.println(holiday);
+        }else if (day == 6) {
+            System.out.println("");
+
+        }
         // if it's the weekend, print: "it's the weekend, no work!"
         // otherwise, print: "Wake up at 7:00 :( ";
         }
