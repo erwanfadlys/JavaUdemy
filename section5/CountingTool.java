@@ -4,6 +4,12 @@ public class CountingTool {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("Hi Timmy! Choose a number to count to: ");
+        int count = scan.nextInt();
+
+        for (int i = 0; i <= count; ++i) {
+            System.out.print (i+" ");
+        }
 
         /*Task 1 – Choose a number
 
