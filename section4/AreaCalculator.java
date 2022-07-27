@@ -18,7 +18,7 @@ public class AreaCalculator {
     }
 
     //Task 1 - Write a function that calculates the area of a square. 
-
+    public static double calculateArea()
 
     /**
      * Function name: areaSquare - returns the area of a square.
