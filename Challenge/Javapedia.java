@@ -63,7 +63,7 @@ public class Javapedia {
     public static void searchArray(String temp[][], String searchName) {
         String [][] result; 
         for (int i = 0; i < temp.length; i++) {
-            for (int j = 0; j < temp[i].length; j++) {
+            for (int j = 0; j < temp[i].length; j++) {//instead of searching just the first column, i searched all column because why noot. Time complexion is longer but just in case.
                 if(temp[i][j].equals(searchName)) { //why is this not working
                     System.out.println("\nName : " + temp[i][j] );
                     System.out.println("Date of Birth : " + temp[i][j + 1] );
