@@ -1,3 +1,4 @@
+package Challenge;
 import java.util.Scanner;
 
 public class Bank {
@@ -67,6 +68,7 @@ public class Bank {
                 System.out.println("What is your name?");
                 String name = scan.nextLine();
                 
+                
                 if ((savings - debt ) > debt && (userWorkExp > 5)){
                     System.out.println("Congratulations " + name + " You have been approved!");
                 }else {
@@ -79,15 +81,16 @@ public class Bank {
                 break;
             }
         }
-        //Task 2 - Print this if the decision is "yes"
-       
-            // Task 3 - Pick up each value            
-            // Task 4 - Pick up number of years
-            // Task 5 - Pick up the user's name
-            //Task 6 - Approve the mortgage if they meet the requirements (see article)
-            //       - Otherwise, don't give them a mortgage.          
-            //Task 2 - Print this if the decision was not "yes"
-
+ 
         scan.close();
     }
 }
+
+//Task 2 - Print this if the decision is "yes"
+
+// Task 3 - Pick up each value            
+// Task 4 - Pick up number of years
+// Task 5 - Pick up the user's name
+//Task 6 - Approve the mortgage if they meet the requirements (see article)
+//       - Otherwise, don't give them a mortgage.          
+//Task 2 - Print this if the decision was not "yes"

@@ -14,6 +14,7 @@ public class CounterTool {
         System.out.print("Pick a number to count to: ");
         int countTo = scan.nextInt();
         
+        
         jimmyCount(countBy,countFrom,countTo);
         /* Task 1 – Get integers from the user.
 
