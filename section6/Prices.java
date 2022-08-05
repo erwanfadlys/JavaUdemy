@@ -1,7 +1,3 @@
-import java.util.Arrays;
-
-import javax.sql.rowset.spi.SyncResolver;
-
 public class Prices {
     public static void main(String[] args) {
         //Task 1 - Create a 2D array that can store 3 rows and 5 columns of double values.
@@ -16,16 +12,16 @@ public class Prices {
         for (int i = 0; i <values.length; i++) { //this loop will access row indices
             switch (i) {
                 case 0:
-                System.out.println("\tBaking: ");
+                System.out.print("\nBaking: ");
                 break;
                 case 1:
-                System.out.println("\tCake: ");
+                System.out.print("\nCake: ");
                 break;
                 case 2: 
-                System.out.println("\tCandy: ");
+                System.out.print("\nCandy: ");
             }
             for (int j = 0; j < values[i].length; j++) { //this loop will access columns based on row indices
-                System.out.print(values[i][j] + " \n");
+                System.out.print(values[i][j] + " ");
 
             }
         }
