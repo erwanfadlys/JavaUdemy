@@ -32,3 +32,5 @@ Beside each number:
 If a number is a multiple of X, the remainder is zero when you divide that number by X. 
 There are three conditions for Fizz, Buzz, and FizzBuzz. Be careful about their order. If something is FizzBuzz, it can also be Fizz or Buzz. 
 */
+
+"workbench.colorTheme" : "SynthWave '84",

@@ -7,12 +7,12 @@ public class AppleStore {
 
         System.out.println("You picked 500 apples from an apple orchard");
         numOfApples += 500;
-        //Update number of apples.
+        //Update number of apples.      
         
         System.out.println("Time for business! You're selling each apple for 40 cents");
         double pricePerApples = 0.4;
         //Make a price variable. Set it equal to 40 cents. 
-
+        
         System.out.println("One customer walked in. He bought 4 apples!");
         numOfApples -= 4;
         System.out.println("number of apple " + numOfApples);
